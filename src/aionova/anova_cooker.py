@@ -1,6 +1,6 @@
 import aiohttp
 import datetime
-from typing import Optional, Union
+from typing import Optional, Union 
 
 LEGACY_API_URL = 'https://api.anovaculinary.com/cookers/{cooker_id}{action}?secret={secret}'
 STATE_URL = 'https://anovaculinary.io/devices/{cooker_id}/states/?limit=1&max-age=10s'  #GET
